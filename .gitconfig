@@ -1,0 +1,9 @@
+[alias]
+	st = status -uno
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)' --all
+[user]
+	name = Seok-Jin Yoon
+	email = sj.yoon@elixirflash.com
+[core]
+	editor = vim
+	pager = less -x4
