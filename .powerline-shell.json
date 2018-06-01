@@ -1,0 +1,19 @@
+{
+    "segments": [
+        "read_only",
+        "time",
+        "username",
+        "hostname",
+        "ssh",
+        "cwd",
+        "git",
+        "jobs",
+        "set_term_title",
+        "newline",
+        "root"
+    ],
+    "cwd": {
+        "mode": "plain",
+        "hostname":"colorize"
+    }
+}
