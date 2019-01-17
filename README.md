@@ -25,4 +25,13 @@ fi;
 
 config checkout
 config config status.showUntrackedFiles no
+
+sudo apt install python-pip cscope ctags
+
+pip install powerline-shell
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+vim +PluginInstall +qall
+
 ```
