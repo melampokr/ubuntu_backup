@@ -11,6 +11,9 @@ set smartindent
 set fileencoding=utf-8
 set tenc=utf-8
 set fencs=usc-bom,utf-8,euc-kr.utf-8
+"project별 .vimrc 구성파일 허용.
+"각 프로젝트에 변경하기 위한 내용이 있으면 프로젝트 폴더 내 .vimrc 파일을 생성 후 변경하고 싶은 속성을 추가한다.
+set exrc
 "===================================================
 set history=1000
 set laststatus=2
@@ -199,6 +202,7 @@ Plugin 'justinmk/vim-syntax-extra'
 "Plugin 'lisposter/vim-blackboard'
 "Plugin 'flazz/vim-colorschemes'
 Plugin 'sickill/vim-monokai'
+Plugin 'a.vim'
 
 "===================================================
 call vundle#end()            " required
