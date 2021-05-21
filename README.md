@@ -6,6 +6,9 @@ https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare
 
 power shell : https://github.com/b-ryan/powerline-shell
 
+아래 스크립트는 python3-pip 가 설치되어있을때 정상동작.
+Vi의 경우 ctags, cscope가 설치되지 않을 경우 에러메시지 출력.
+
 ## 복원용 bash script.
 
 ```bash
