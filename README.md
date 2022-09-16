@@ -31,7 +31,7 @@ fi;
 config checkout
 config config status.showUntrackedFiles no
 
-sudo apt install python-pip cscope ctags
+sudo apt install python3-pip cscope ctags
 
 pip install powerline-shell
 
